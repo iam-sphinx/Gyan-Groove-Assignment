@@ -27,7 +27,7 @@ const RecommendedShows = () => {
         </header>
         <div className="w-full overflow-scroll sm:pl-32 flex gap-6 scrollbar-hide">
           {data?.events?.map((item, idx) => {
-            return <RecommendedCard {...item} />;
+            return <RecommendedCard key={idx} {...item} />;
           })}
         </div>
       </div>
