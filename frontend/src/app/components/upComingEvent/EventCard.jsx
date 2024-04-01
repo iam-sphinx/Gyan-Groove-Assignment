@@ -16,7 +16,7 @@ const EventCard = ({
   const imgId = imgUrl.split("/")[5];
 
   return (
-    <div className="h-80 w-96 border border-[#f3f3f3] rounded-lg p-4  flex flex-col justify-between">
+    <div className="h-80 sm:w-96 w-full border border-[#f3f3f3] rounded-lg p-4  flex flex-col justify-between">
       <div className="w-full h-52 rounded-lg relative overflow-hidden">
         <Image
           loader={() => imgUrl}
